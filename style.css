@@ -1,0 +1,146 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+h1 { color: blue;
+     text-align: center;
+    font-size: 50px ;
+}
+     body {background-color: white;}
+
+     #mijnDiv3 {
+background-color:aliceblue;
+margin:20px;
+padding:20px;
+border: 2px solid black;
+}
+
+#mijnDiv2 { background-color:white;
+  border: 2px solid black;
+margin:20px;
+padding:20px;
+}
+  
+
+  #tekening {
+display: block;
+margin-left: auto;
+margin-right:auto;
+width:50%;
+hover: color blue;
+visited: color green;
+}
+
+#link1 {
+  color: white;} 
+
+
+#slang {
+  margin-left: 50px; 
+  margin-right: 50px;
+  width: 20%;}
+
+
+a:hover img { 
+  opacity: 1; transition: opacity 0.3s ease; color:blue;}
+   
+
+  #mijnDiv4 { width: 100vw;
+    height: 5vh; }
+
+  #mijnDiv3 {background-image: url(img/achtergrond.jpg);
+  background-size:cover;
+background-position: center;
+background-repeat: no-repeat; 
+ font-size: 2,5rem;
+font-weight: bold; }
+
+
+
+  #slang { 
+    display: block;
+  margin-left: auto;
+  margin-right: auto; width: 20% ;
+  width: 20%;
+border: 2px solid black}
+
+#ronaldo { 
+border: 2px solid black;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+ }
+
+ #tekeningen {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;}
+
+ .pagina2 {background-image: url("img/achtergrond.jpg");
+background-size:cover; 
+background-position:center;
+background-repeat:no-repeat;}
+
+.pagina2{
+  width: 100vw;
+  height: 100vh;
+  margin: 0vh;
+}
+#mijnDiv6 { display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;}
+
+#mijnDiv7 {
+   display: flex; 
+  justify-content: center;  
+align-items: center;
+gap: 10px;}
+
+#mijnDiv7.purple a
+{ color:red;}
+
+.box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+justify-content: center;
+white-space: nowrap;
+  border: 2px dotted rgb(96 139 168);
+}
+
+.box div {
+  width: auto;
+  height: auto;
+  border: 2px white;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+h1 { white-space: nowrap;}
+
+.myBox {
+  height: 300px; 
+  width: 300px;
+background-color: darkgrey;
+}
+.blue { 
+  filter: hue-rotate(180deg);
+}
+
